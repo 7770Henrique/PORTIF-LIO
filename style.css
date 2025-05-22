@@ -1,0 +1,33 @@
+*{
+    margin: 2px;;
+    padding:10%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: right;
+}
+.container{ 
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* tablet*/
+@media (max-width: 860px) {
+    header{
+        background-color: white;
+        color:black;
+        padding-bottom: 10px;
+    }
+    }
+    main{
+        flex-direction: column;
+    }
+    main.conteudo{
+        flex:none;
+        padding: 100px 50px 20px 50px;
+        justify-content: center;
+        text-align: center;
+    }
+    main.conteudo.nome{
+        font-size: 60px;
+    }

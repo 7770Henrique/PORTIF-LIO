@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Henrique Moreira - Técnico em Informática</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #002244;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 2rem;
+      background-color: #f0f0f5;
+    }
+
+    .texto {
+      flex: 1;
+      min-width: 280px;
+      padding: 1rem;
+    }
+
+    .texto .descricao {
+      font-size: 1.2rem;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+
+    .texto h2 {
+      font-size: 2rem;
+      color: #002244;
+    }
+
+    .imagem-jogador {
+      flex: 1;
+      min-width: 280px;
+      max-width: 100%;
+      max-height: 400px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      margin-top: 1rem;
+    }
+
+    .acoes {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      padding: 2rem 1rem;
+      background-color: #ffffff;
+    }
+
+    .acoes a {
+      text-decoration: none;
+    }
+
+    .acoes button {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .acoes button:hover {
+      background-color: #005fa3;
+    }
+
+    footer {
+      background-color: #002244;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .imagem-jogador {
+        margin-top: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header {
+        padding: 1rem;
+      }
+
+      .texto h2 {
+        font-size: 1.5rem;
+      }
+
+      .descricao {
+        font-size: 1rem;
+      }
+
+      .acoes button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Henrique</h1>
+    <p>Técnico de Informática</p>
+  </header>
+
+  <main>
+    <section class="texto">
+      <p class="descricao">UI/UX DESIGNER & DEVELOPER</p>
+      <h2>Henrique Moreira</h2>
+    </section>
+    <img src="empresario2.jpg" alt="Henrique Moreira" class="imagem-empresario">
+  </main>
+
+  <section class="acoes">
+    <a href="sobre.html"><button>SOBRE MIM</button></a>
+    <a href="Contatos.html"><button>CONTRATE-ME</button></a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Time CSS. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
